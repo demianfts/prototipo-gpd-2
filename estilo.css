@@ -6,27 +6,96 @@
 /* FONTS */
 body{
     background-attachment: fixed;
-    background-color: #ededed;
+    background-color: #ededed !important;
 
 }
 header{
     width: 100%;
-    background: linear-gradient(to right,#002855 0%,#023e7d 100%) !important;
-    color: white;
+    background-color: #ededed;
+   
     
 
 }
-
-.container1 {
-    padding: 10px;
+.main{
     background-color: #ededed;
+}
+.container1 {
+    
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: #ededed;
+    align-items: center;
+    justify-content: center;
+}
+.container2 {
+    padding: 10px;
+    margin:40px;
+    background-color: #ededed;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-evenly;
+    
 }
 
 #portada{
+    
+    padding: 10px;
     margin: 40px;
-    padding: 20px;
-    border-radius: 40px;
+    border-radius: 30px;
     border: solid 1px white;
+
+}
+#portadaBienvenida{
+    font-size: 45px;
+}
+#rowdata{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#dataMiCuenta{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#reclamaPuntos{
+    padding: 30px;
+    border-radius: 20px;
+    
+}
+#contenedorMiCuenta{
+    margin-bottom: 150px;
+}
+
+
+#Usuario{
+    border-radius: 20px
+}
+#Activity{
+    border-radius: 20px;
+    margin-bottom: 9px
+}
+#Encuesta{
+    border-radius: 20px
+}
+#eventosActividades{
+    padding: 30px;
+    border-radius: 20px;
+    
+}
+
+#bienvenidaPrograma{
+    margin: 40px;
+    padding: 30px;
+    border-radius:30px;
+    display: flex;
+    align-items: center;
     
 }
 
@@ -38,30 +107,27 @@ header{
     
 }
 
-h2{
-    font-family: 'Fugaz One';
-    font-size: 50px !important;
-    text-align: center;
-    padding-left: 20px;
-    padding-top: 20px;
-}
+
 
 h1{
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Poppins', sans-serif;
     font-size: 50px;
-    text-align: center;
-    padding-left: 20px;
-    padding-top: 10px;
+    
 }
 
-
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+h5{
+    font-family: 'Inter', sans-serif;
+}
 a{
     text-decoration: none;
     color: white;
 }
 
 .row {
-  margin-left: 20px !important;
+  margin-left: 20px;
   margin-bottom: 20px;
   margin-right: 20px;
 }
