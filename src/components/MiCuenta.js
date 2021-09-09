@@ -46,7 +46,7 @@ class MiCuenta extends Component {
                         <div className="card" id="Encuesta">
                             <div className="card-body d-flex justify-content-between">
                                 <h3>Completá nuestra encuesta y sumá puntos</h3>
-                                <a href="#" class="btn btn-primary">Ir a la encuesta</a>
+                                <a href="#" className="btn btn-primary">Ir a la encuesta</a>
 
                             </div>
                         </div>

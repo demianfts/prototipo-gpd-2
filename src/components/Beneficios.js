@@ -14,29 +14,29 @@ class Beneficios extends Component {
                     </div>
 
                     <div className="container mb-5">
-                    <div class="card-group px-5">
-                        <div class="card mx-3">
-                            {/*<img src="./img/discount.png" class="card-img" alt="..."></img>*/}
-                            <div class="card-body">
-                            <h2 class="card-title">20% OFF</h2>
-                            <p class="card-text">En tu primera compra a través de nuestra página</p>
-                            <p class="card-text"><small class="text-muted">Mejorá el beneficio subiendo al nivel 2</small></p>
+                    <div className="card-group px-5">
+                        <div className="card mx-3">
+                            {/*<img src="./img/discount.png" className="card-img" alt="..."></img>*/}
+                            <div className="card-body">
+                            <h2 className="card-title">20% OFF</h2>
+                            <p className="card-text">En tu primera compra a través de nuestra página</p>
+                            <p className="card-text"><small className="text-muted">Mejorá el beneficio subiendo al nivel 2</small></p>
                             </div>
                         </div>
-                        <div class="card mx-3">
-                            {/*<img src="./img/activity.png" class="card-img-top" alt="..."></img>*/}
-                            <div class="card-body">
-                            <h3 class="card-title">Acceso a todas nuestras actividades</h3>
-                            <p class="card-text">Eventos, charlas, actividades y más. <br/> Conocé las próximas fechas.</p>
-                            <p class="card-text"><small class="text-muted">Exclusivo suscriptores de nuestro programa</small></p>
+                        <div className="card mx-3">
+                            {/*<img src="./img/activity.png" className="card-img-top" alt="..."></img>*/}
+                            <div className="card-body">
+                            <h3 className="card-title">Acceso a todas nuestras actividades</h3>
+                            <p className="card-text">Eventos, charlas, actividades y más. <br/> Conocé las próximas fechas.</p>
+                            <p className="card-text"><small className="text-muted">Exclusivo suscriptores de nuestro programa</small></p>
                             </div>
                         </div>
-                        <div class="card mx-3">
-                            {/*<img src="./img/truck.png" class="card-img-top" alt="..."></img>*/}
-                            <div class="card-body">
-                            <h2 class="card-title">Envío gratuito</h2>
-                            <p class="card-text">Para compras superiores a $5000.-</p>
-                            <p class="card-text"><small class="text-muted">Mejorá el beneficio subiendo al nivel 2</small></p>
+                        <div className="card mx-3">
+                            {/*<img src="./img/truck.png" className="card-img-top" alt="..."></img>*/}
+                            <div className="card-body">
+                            <h2 className="card-title">Envío gratuito</h2>
+                            <p className="card-text">Para compras superiores a $5000.-</p>
+                            <p className="card-text"><small className="text-muted">Mejorá el beneficio subiendo al nivel 2</small></p>
                             </div>
                         </div>
                     </div>
