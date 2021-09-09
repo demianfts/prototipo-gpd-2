@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 
 class ProgramaDeLoyalty extends Component {
     render(){
@@ -6,10 +7,10 @@ class ProgramaDeLoyalty extends Component {
             <div className="Main">
                 <div className="container1">
                     <div className="card" id="bienvenidaPrograma">
-                     <div className="card-body text-start">
+                     <div className="card-body text-center">
                         <h1>Bienvenido al programa de Loyalty Babylon</h1>
-                        <h6>Ya sos parte de nuestro programa de Loyalty! Conocé los beneficios y descuentos que tenemos para vos</h6>
-                        <a href="#" class="btn btn-primary">Ver beneficios</a>
+                        <h6 className="pb-3">Ya sos parte de nuestro programa de Loyalty! Conocé los beneficios y descuentos que tenemos para vos</h6>
+                        <Link to="/Beneficios" class="btn btn-primary">Ver beneficios</Link>
                         
                      </div>
                     </div>
@@ -19,9 +20,9 @@ class ProgramaDeLoyalty extends Component {
                         <div className="col-md-5"> 
                             <div className="card" id="reclamaPuntos">
                             <div className="card-body">
-                                <h5 className="card-title">Reclama tus puntos</h5>
+                                <h5>Reclama tus puntos</h5>
                                 <p className="card-text">Por ser parte, ya tenés 500 puntos. Entrá a la sección Mi Cuenta para seguir sumando.</p>
-                                <a href="#" class="btn btn-primary">Ir a mi cuenta</a>
+                                <Link to="/MiCuenta" class="btn btn-primary">Ir a mi cuenta</Link>
                             </div>
                             </div>
                         </div>

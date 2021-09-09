@@ -1,5 +1,6 @@
 
 import React, {Component} from "react";
+import {Link} from 'react-router-dom';
 
 
 
@@ -27,31 +28,20 @@ class Main extends Component{
                 <div class="card" id="portada">
                 <div class="card-body">
                 
+                        <div className="d-flex flex-row justify-content-evenly">
+                        <div className="col-6 px-4 pt-5">
+                        <h1 className="pb-2" id="portadaBienvenida">Conocé nuestro programa de Loyalty</h1>
+                        <h6 className="pb-3">Sumá puntos y obtené descuentos, beneficios, vouchers, acceso a eventos exclusivos y mucho más..</h6>
+                        
+                        <Link to="/SignUp" class="btn btn-primary">Registrate</Link>
+                        </div>
+                        
+                        <div className="col"></div>
+                        <img src="./img/mockupbaby.png" width="500px" height="350"alt="..."></img>
+                        </div>
+                     
                     
-                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-
-                    <div class="carousel-item active">
-                    <img src="https://www.nutrilon4.com.ar/media/wysiwyg/Nutrilon_magento_desktop_descuento_1_.png" class="d-block w-100" alt="..."></img>
-                    
-                    </div>
-                    <div class="carousel-item">
-                    <img src="https://www.nutrilon4.com.ar/media/wysiwyg/Nutrilon_Sabores_Banner_Desktop.png" class="d-block w-100" alt="..."></img>
-                    </div>
-                    <div class="carousel-item">
-                    <img src="https://www.nutrilon4.com.ar/media/wysiwyg/Nutrilon_magento_desktop_envio.png" class="d-block w-100" alt="..."></img>
-                    </div>
-
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+                
                 </div>
                 </div>
                     

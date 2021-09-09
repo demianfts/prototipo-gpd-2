@@ -46,6 +46,9 @@ header{
     border: solid 1px white;
 
 }
+#portadaBienvenida{
+    font-size: 45px;
+}
 #rowdata{
     display: flex;
     align-items: center;
@@ -91,7 +94,8 @@ header{
     margin: 40px;
     padding: 30px;
     border-radius:30px;
-    align-items: flex-start;
+    display: flex;
+    align-items: center;
     
 }
 
@@ -106,12 +110,17 @@ header{
 
 
 h1{
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Poppins', sans-serif;
     font-size: 50px;
     
 }
 
-
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+h5{
+    font-family: 'Inter', sans-serif;
+}
 a{
     text-decoration: none;
     color: white;

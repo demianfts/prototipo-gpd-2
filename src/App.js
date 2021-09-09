@@ -5,6 +5,7 @@ import Main from './components/Main';
 import Shop from './components/Shop';
 import SignUp from './components/SignUp'
 import MiCuenta from './components/MiCuenta';
+import Beneficios from './components/Beneficios'
 
 import ProgramaDeLoyalty from './components/ProgramaDeLoyalty';
 
@@ -57,6 +58,10 @@ render(){
               <MiCuenta/>
             </Route>
 
+            <Route exact path="/Beneficios">
+              <Beneficios/>
+            </Route>
+
           </Switch>
 
         </div>
@@ -64,7 +69,7 @@ render(){
         <footer >
           
             <ul>
-              <li><a href = "https://www.instagram.com/demianlazarte/?hl=es-la"> Demián Lazarte </a></li>
+              <li>Squad 2 - GPD II turno tarde</li>
             </ul>
       
         </footer>

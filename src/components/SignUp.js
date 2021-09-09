@@ -31,13 +31,13 @@ class SignUp extends Component {
     render(){
         return(
             <div>
-                <div className="container px-4">
+                <div className="container px-4 mt-4">
                     <div className="col px-4 mx-3">
                     <h1>Registro</h1>
                     <p>Por favor, completá los siguientes datos para crear tu cuenta.</p>
                     </div>
                 </div>
-                <div className="container">
+                <div className="container px-5">
                     <div className="row">
                         <div className="col">
                             <form className="px-4">
@@ -84,7 +84,7 @@ class SignUp extends Component {
                         </div>
                         < hr />
                             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                            <button class="btn btn-primary me-md-2" type="button"><Link class="nav-link" to={this.registroLoyalty.bind(this)}>Registrarse</Link></button>
+                            <Link class="nav-link" to={this.registroLoyalty.bind(this)}><button class="btn btn-primary me-md-2" type="button">Registrarse</button></Link>
                         </div>
 
                     </div>

@@ -32,7 +32,7 @@ class NavBar extends Component {
 
                             <form class="d-flex">
                               
-                              <button class="btn btn-outline-success" type="submit"><Link to="/SignUp">Registro</Link></button>
+                            <Link to="/SignUp"><button class="btn btn-outline-success" type="submit">Registro</button></Link>
                               <button class="btn btn" type="submit">Login</button>
                             </form>
                             
