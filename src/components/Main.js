@@ -55,7 +55,7 @@ class Main extends Component{
                 <div className="container mb-5">
                     <div className="card-group px-5">
                         <div className="card mx-3">
-                            <img src="./img/BABYARCAN.png" className="card-img-top" alt="..."></img>
+                            <img src="./img/Babyarcan.png" className="card-img-top" alt="..."></img>
                             <div className="card-body">
                             <h5 className="card-title">Babylon Nutrition 1-4</h5>
                             <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -63,7 +63,7 @@ class Main extends Component{
                             </div>
                         </div>
                         <div className="card mx-3">
-                            <img src="./img/BABYHCCAN.png" className="card-img-top" alt="..."></img>
+                            <img src="./img/Babyhccan.png" className="card-img-top" alt="..."></img>
                             <div className="card-body">
                             <h5 className="card-title">Babylon Nutrition Sabores</h5>
                             <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -71,7 +71,7 @@ class Main extends Component{
                             </div>
                         </div>
                         <div className="card mx-3">
-                            <img src="./img/BABYPSCAN.png" className="card-img-top" alt="..."></img>
+                            <img src="./img/Babypscan.png" className="card-img-top" alt="..."></img>
                             <div className="card-body">
                             <h5 className="card-title">Babylon Nutrition Premium</h5>
                             <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
