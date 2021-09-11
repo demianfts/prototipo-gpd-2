@@ -1,6 +1,7 @@
 
 import React, {Component} from 'react';
 import NavBar from './components/NavBar'
+import NavBarLogged from './components/NavBarLogged'
 import Main from './components/Main';
 import Shop from './components/Shop';
 import SignUp from './components/SignUp'
@@ -19,10 +20,35 @@ class App extends Component{
   constructor(){
     super();
     this.state={
-      registrado:false
+      registrado:false,
+      inDataBase:false
     }
   }
 
+  estaRegistrado () {
+    this.setState({registrado: !this.state.registrado});
+    this.setState({inDataBase: true})
+  }
+  inicioSesion(){
+    if(this.state.inDataBase===true){
+      this.setState({registrado: true})
+    }
+  }
+  cerroSesion(){
+    this.setState({registrado: false})
+  }
+
+  ahoraRegistrado(){
+    if(this.state.registrado==false){
+      return(
+      <NavBar triggerLoginUpdate={this.inicioSesion.bind(this)} logged={this.state.inDataBase}/>
+      )
+    } else {
+      return(
+        <NavBarLogged triggerLogoutUpdate={this.cerroSesion.bind(this)}/>
+      )
+    }
+  }
 
 
 
@@ -32,7 +58,8 @@ render(){
     <React.Fragment>
       <Router>
         <div className="App">
-          < NavBar />
+          
+          {this.ahoraRegistrado()}
 
         <div className="content">
 
@@ -51,7 +78,7 @@ render(){
             </Route>
 
             <Route exact path="/SignUp">
-              <SignUp/>
+              <SignUp triggerRegisterUpdate={this.estaRegistrado.bind(this)}/>
             </Route>
 
             <Route exact path="/MiCuenta">

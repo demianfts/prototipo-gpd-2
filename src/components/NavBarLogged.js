@@ -1,18 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 
-class NavBar extends Component {
-
-  logged(){
-    if(this.props.logged === false){
-      return("/SignUp")
-    } else {
-      return("/")
-    }
-  }
-
-
-
+class NavBarLogged extends Component {
     render(){
         return(
             <header>
@@ -33,7 +22,7 @@ class NavBar extends Component {
                                 <Link className="nav-link" to="/Shop">Shop</Link>
                               </li>
                               <li className="nav-item">
-                                <Link className="nav-link" to="/SignUp">Programa de Loyalty</Link>
+                                <Link className="nav-link" to="/ProgramaDeLoyalty">Programa de Loyalty</Link>
                               </li>
                               
                             </ul>
@@ -41,8 +30,8 @@ class NavBar extends Component {
 
                             <form className="d-flex">
                               
-                            <Link to="/SignUp"><button className="btn btn-outline-success" type="submit">Registro</button></Link>
-                            <Link to={this.logged.bind(this)}><button className="btn btn" type="submit" onClick={this.props.triggerLoginUpdate}>Iniciar sesión</button></Link>
+                            <Link to="/MiCuenta"><button className="btn btn-outline-success" type="submit">Mi Cuenta</button></Link>
+                              <button className="btn btn" type="submit" onClick={this.props.triggerLogoutUpdate}>Cerrar sesión</button>
                             </form>
                             
 
@@ -62,4 +51,4 @@ class NavBar extends Component {
     }
 }
 
-export default NavBar;
+export default NavBarLogged;

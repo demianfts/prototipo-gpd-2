@@ -49,31 +49,31 @@ class Main extends Component{
                 </div>
                 <div className="container2">
                     <h1 id="title">
-                    Productos recomendados
+                    Recomendados
                     </h1>
                 </div>
                 <div className="container mb-5">
                     <div className="card-group px-5">
-                        <div className="card mx-3">
+                        <div className="card mx-3" id="productosRecomendados">
                             <img src="./img/Babyarcan.png" className="card-img-top" alt="..."></img>
                             <div className="card-body">
-                            <h5 className="card-title">Babylon Nutrition 1-4</h5>
+                            <h4>Babylon Nutrition 1-4</h4>
                             <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                             </div>
                         </div>
-                        <div className="card mx-3">
+                        <div className="card mx-3" id="productosRecomendados">
                             <img src="./img/Babyhccan.png" className="card-img-top" alt="..."></img>
                             <div className="card-body">
-                            <h5 className="card-title">Babylon Nutrition Sabores</h5>
+                            <h4>Babylon Nutrition Sabores</h4>
                             <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                             <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                             </div>
                         </div>
-                        <div className="card mx-3">
+                        <div className="card mx-3" id="productosRecomendados">
                             <img src="./img/Babypscan.png" className="card-img-top" alt="..."></img>
                             <div className="card-body">
-                            <h5 className="card-title">Babylon Nutrition Premium</h5>
+                            <h4>Babylon Nutrition Premium</h4>
                             <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                             <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                             </div>
