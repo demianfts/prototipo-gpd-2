@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/prototipo-gpd-2/static/js/main.119c0382.chunk.js",
-    "main.js.map": "/prototipo-gpd-2/static/js/main.119c0382.chunk.js.map",
+    "main.js": "/prototipo-gpd-2/static/js/main.38f541fa.chunk.js",
+    "main.js.map": "/prototipo-gpd-2/static/js/main.38f541fa.chunk.js.map",
     "runtime-main.js": "/prototipo-gpd-2/static/js/runtime-main.bffbbd15.js",
     "runtime-main.js.map": "/prototipo-gpd-2/static/js/runtime-main.bffbbd15.js.map",
-    "static/js/2.6efb65c6.chunk.js": "/prototipo-gpd-2/static/js/2.6efb65c6.chunk.js",
-    "static/js/2.6efb65c6.chunk.js.map": "/prototipo-gpd-2/static/js/2.6efb65c6.chunk.js.map",
+    "static/js/2.17d68cde.chunk.js": "/prototipo-gpd-2/static/js/2.17d68cde.chunk.js",
+    "static/js/2.17d68cde.chunk.js.map": "/prototipo-gpd-2/static/js/2.17d68cde.chunk.js.map",
     "index.html": "/prototipo-gpd-2/index.html",
-    "static/js/2.6efb65c6.chunk.js.LICENSE.txt": "/prototipo-gpd-2/static/js/2.6efb65c6.chunk.js.LICENSE.txt"
+    "static/js/2.17d68cde.chunk.js.LICENSE.txt": "/prototipo-gpd-2/static/js/2.17d68cde.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bffbbd15.js",
-    "static/js/2.6efb65c6.chunk.js",
-    "static/js/main.119c0382.chunk.js"
+    "static/js/2.17d68cde.chunk.js",
+    "static/js/main.38f541fa.chunk.js"
   ]
 }
