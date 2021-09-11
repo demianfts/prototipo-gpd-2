@@ -69,6 +69,10 @@ render(){
               <Main/>
             </Route>
 
+            <Route exact path="/prototipo-gpd-2">
+              <Main/>
+            </Route>
+
             <Route exact path="/Shop">
               <Shop/>
             </Route>
