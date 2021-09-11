@@ -37,7 +37,7 @@ class Main extends Component{
                         </div>
                         
                         <div className="col"></div>
-                        <img src="./img/mockupbaby.png" width="500px" height="350"alt="..."></img>
+                        <img src="https://i.ibb.co/j3SPJ9f/mockupbaby.png" alt="mockupbaby" border="0" width="500px" height="350"></img>
                         </div>
                      
                     
@@ -55,7 +55,7 @@ class Main extends Component{
                 <div className="container mb-5">
                     <div className="card-group px-5">
                         <div className="card mx-3" id="productosRecomendados">
-                            <img src="./img/ar.png" className="card-img-top" alt="..."></img>
+                            <img src="https://i.ibb.co/nPc9w99/ar.png" alt="ar" border="0" className="card-img-top"></img>
                             <div className="card-body">
                             <h4>Babylon Nutrition 1-4</h4>
                             <p className="card-text">Leche modificada en polvo <b>sin azúcar</b> para niños a partir de los 0-6 meses. <br/> Libre de gluten.</p>
@@ -63,7 +63,7 @@ class Main extends Component{
                             </div>
                         </div>
                         <div className="card mx-3" id="productosRecomendados">
-                            <img src="./img/hc.png" className="card-img-top" alt="..."></img>
+                            <img src="https://i.ibb.co/bWyjGMP/hc.png" alt="hc" border="0"className="card-img-top"></img>
                             <div className="card-body">
                             <h4>Babylon Nutrition Sabores</h4>
                             <p className="card-text">Leche modificada en polvo <b>sin azúcar</b> para niños de 1 a 4 años. Sabor vainilla y frutilla. Libre de gluten</p>
@@ -71,7 +71,7 @@ class Main extends Component{
                             </div>
                         </div>
                         <div className="card mx-3" id="productosRecomendados">
-                            <img src="./img/ps.png" className="card-img-top" alt="..."></img>
+                            <img src="https://i.ibb.co/SR7f3pv/ps.png" alt="ps" border="0" className="card-img-top"></img>
                             <div className="card-body">
                             <h4>Babylon Nutrition Premium</h4>
                             <p className="card-text">Leche modificada en polvo <b>sin azúcar</b> para niños de 1 a 4 años. Formula avanzada con prebióticos y postbióticos</p>

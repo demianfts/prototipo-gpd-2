@@ -11,7 +11,7 @@ class MiCuenta extends Component {
                                 <div className="container pt-5 pb-3 d-flex justify-content-center" >
                                     <div className="d-flex flex-column " id="containerData">
                                     <div className="d-flex flex-column align-items-center">
-                                        <img src="./img/icon.png" alt="..." width="100" height="100"></img>
+                                        <img src="https://i.ibb.co/KDBvwV5/icon.png" alt="icon" border="0" alt="..." width="100" height="100"></img>
                                     </div>
                                     <div className="d-flex flex-column align-items-center">
                                         <h2 className="pt-2">Usuario</h2>
