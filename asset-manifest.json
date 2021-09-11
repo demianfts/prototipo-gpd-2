@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/prototipo-gpd-2/static/js/main.9ead4a8f.chunk.js",
-    "main.js.map": "/prototipo-gpd-2/static/js/main.9ead4a8f.chunk.js.map",
+    "main.js": "/prototipo-gpd-2/static/js/main.c6d8b3f3.chunk.js",
+    "main.js.map": "/prototipo-gpd-2/static/js/main.c6d8b3f3.chunk.js.map",
     "runtime-main.js": "/prototipo-gpd-2/static/js/runtime-main.bffbbd15.js",
     "runtime-main.js.map": "/prototipo-gpd-2/static/js/runtime-main.bffbbd15.js.map",
     "static/js/2.17d68cde.chunk.js": "/prototipo-gpd-2/static/js/2.17d68cde.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.bffbbd15.js",
     "static/js/2.17d68cde.chunk.js",
-    "static/js/main.9ead4a8f.chunk.js"
+    "static/js/main.c6d8b3f3.chunk.js"
   ]
 }
