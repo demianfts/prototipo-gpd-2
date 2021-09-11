@@ -9,7 +9,7 @@ class NavBarLogged extends Component {
         <div className="">
         <nav className="navbar navbar-expand-lg navbar-light px-4 mx-5" style={{backgroundColor: "#ededed"}}>
         <div className="container-fluid">
-                  <a href="#"><img src="https://i.ibb.co/4ghFrtT/logo2.png" alt="logo" border="0" width="120" height="50"></img></a>
+        <Link className="navbar-brand px-2 pt-2" to="#"><img src="https://i.ibb.co/4ghFrtT/logo2.png" alt="logo" border="0" width="120" height="50"></img></Link>
                   <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                   </button>
