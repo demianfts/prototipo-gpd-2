@@ -39,7 +39,7 @@ class App extends Component{
   }
 
   ahoraRegistrado(){
-    if(this.state.registrado==false){
+    if(this.state.registrado===false){
       return(
       <NavBar triggerLoginUpdate={this.inicioSesion.bind(this)} logged={this.state.inDataBase}/>
       )

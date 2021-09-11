@@ -58,7 +58,7 @@ class Main extends Component{
                             <img src="./img/Babyarcan.png" className="card-img-top" alt="..."></img>
                             <div className="card-body">
                             <h4>Babylon Nutrition 1-4</h4>
-                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p className="card-text">Leche modificada en polvo <b>sin azúcar</b> para niños a partir de los 0-6 meses. <br/> Libre de gluten.</p>
                             <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ class Main extends Component{
                             <img src="./img/Babyhccan.png" className="card-img-top" alt="..."></img>
                             <div className="card-body">
                             <h4>Babylon Nutrition Sabores</h4>
-                            <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            <p className="card-text">Leche modificada en polvo <b>sin azúcar</b> para niños de 1 a 4 años. Sabor vainilla y frutilla. Libre de gluten</p>
                             <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                             </div>
                         </div>
@@ -74,7 +74,7 @@ class Main extends Component{
                             <img src="./img/Babypscan.png" className="card-img-top" alt="..."></img>
                             <div className="card-body">
                             <h4>Babylon Nutrition Premium</h4>
-                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                            <p className="card-text">Leche modificada en polvo <b>sin azúcar</b> para niños de 1 a 4 años. Formula avanzada con prebióticos y postbióticos</p>
                             <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                             </div>
                         </div>
