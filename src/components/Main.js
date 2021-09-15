@@ -24,7 +24,7 @@ class Main extends Component{
         return(
            <div> 
                 
-                <div className="container1">
+                <div className="container-fluid">
                 <div className="card" id="portada">
                 <div className="card-body">
                 

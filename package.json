@@ -2,6 +2,7 @@
   "name": "primer-proyecto",
   "version": "0.1.0",
   "homepage": "https://demianlazarte.github.io/prototipo-gpd-2/",
+  
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
@@ -22,6 +23,8 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+
+  
 
     
    
