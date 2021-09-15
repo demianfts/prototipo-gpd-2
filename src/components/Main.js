@@ -28,7 +28,7 @@ class Main extends Component{
                 <div className="card" id="portada">
                 <div className="card-body">
                 
-                        <div className="d-flex flex-row justify-content-evenly">
+                        {/*<div className="d-flex flex-row justify-content-evenly">
                         <div className="col-6 px-4 pt-5">
                         <h1 className="pb-2" id="portadaBienvenida">Conocé nuestro programa de Loyalty</h1>
                         <h6 className="pb-3">Sumá puntos y obtené descuentos, beneficios, vouchers, acceso a eventos exclusivos y mucho más..</h6>
@@ -38,8 +38,21 @@ class Main extends Component{
                         
                         <div className="col"></div>
                         <img src="https://i.ibb.co/j3SPJ9f/mockupbaby.png" alt="mockupbaby" border="0" width="500px" height="350"></img>
-                        </div>
+                        </div>*/}
                      
+                     <div class="card" id="portadaGrande">
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                        <div className="col-6 px-4 pt-4">
+                        <h1 className="pb-2">Conocé nuestro programa de Loyalty</h1>
+                        <h6 className="pb-3">Sumá puntos y obtené descuentos, beneficios, vouchers, acceso a eventos exclusivos y mucho más..</h6>
+                        <Link to="/SignUp" className="btn btn-primary">Registrate</Link>
+                        </div>
+                        <div className="col-5">
+          
+                        <img src="https://i.ibb.co/j3SPJ9f/mockupbaby.png" className="img-fluid" alt="mockupbaby" border="0" width="500px" height="350"></img>
+                        </div>
+                        </div>
+                        </div>
                     
                 
                 </div>
