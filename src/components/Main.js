@@ -40,8 +40,8 @@ class Main extends Component{
                         <img src="https://i.ibb.co/j3SPJ9f/mockupbaby.png" alt="mockupbaby" border="0" width="500px" height="350"></img>
                         </div>*/}
                      
-                     <div class="card" id="portadaGrande">
-                        <div class="d-flex flex-row align-items-center justify-content-between">
+                     <div className="card" id="portadaGrande">
+                        <div className="d-flex flex-row align-items-center justify-content-between">
                         <div className="col-6 px-4 pt-4">
                         <h1 className="pb-2">Conocé nuestro programa de Loyalty</h1>
                         <h6 className="pb-3">Sumá puntos y obtené descuentos, beneficios, vouchers, acceso a eventos exclusivos y mucho más..</h6>
